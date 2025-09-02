@@ -22,3 +22,26 @@ python -m venv .venv
 # or source .venv/bin/activate on macOS/Linux
 
 pip install -r requirements.txt
+
+thon src/md_roi_stats.py 
+```
+
+## Expected Outputs
+
+    md_by_region.csv — full ROI statistics
+
+    md_top25.png — top 25 ROIs by median MD
+
+    md_bottom25.png — bottom 25 ROIs by median MD
+
+    md_hist.png — distribution of ROI MD values
+
+## Applications
+
+Designed for coursework and exploratory projects in:
+
+    Structural brain plasticity
+
+    Diffusion MRI research
+
+    Quantitative neuroimaging
