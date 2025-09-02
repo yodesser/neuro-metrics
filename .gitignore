@@ -5,7 +5,8 @@ __pycache__/
 # VS Code
 .vscode/
 # Data / Outputs (keep your private data out of the repo)
-data/
+data/*
+!data/.gitkeep
 *.nii
 *.nii.gz
 md_*.png
