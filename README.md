@@ -45,3 +45,7 @@ Designed for coursework and exploratory projects in:
    Diffusion MRI research
 
    Quantitative neuroimaging
+
+## Input Data (not included)
+
+Provide two NIfTI files under `data/`:
